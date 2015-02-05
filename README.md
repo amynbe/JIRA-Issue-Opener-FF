@@ -39,6 +39,7 @@ Where <code>URL</code> is parameter, that user should specify in Options page (o
 
 <h1>Posts About JIRA Issue Opener</h1>
 <table><tbody>
+<tr><td><em>January 5, 2015</em></td><td><a href = "http://ivanova-irina.blogspot.com/2015/02/getting-started-with-firefox-extensions.html">Getting Started With FireFox Extensions</a></td></tr>
 <tr><td><em>September 17, 2014</em></td><td><a href="http://ivanova-irina.blogspot.com/2014/09/jira-issue-opener-v11.html">JIRA Issue Opener v1.1</a></td></tr>
 <tr><td><em>September 12, 2014</em></td><td><a href="http://ivanova-irina.blogspot.com/2014/09/jira-issue-opener-v10.html">JIRA Issue Opener v1.0</a></td></tr>
 </tbody></table>
