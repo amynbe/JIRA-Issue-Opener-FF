@@ -9,7 +9,7 @@ It is useful for developers, analysts or testers who often need to open JIRA iss
 
 <h1>Download and Install</h1>
 <ul>
-<li><strong><a href="">Install</a></strong> last version from Mozilla Addons
+<li><strong><a href="https://addons.mozilla.org/ru/firefox/addon/jira-issue-opener/">Install</a></strong> last version from Mozilla Addons
 </li>
 or
 <li><strong><a href="https://github.com/iriiiina/JIRA-Issue-Opener-FF">Download</a></strong> source code from GitHub and load extension manually</li>
