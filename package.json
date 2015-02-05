@@ -1,0 +1,19 @@
+{
+  "name": "jira-issue-opener-ff",
+  "title": "JIRA Issue Opener",
+  "id": "jid1-NfFkNtnlFJTh3A",
+  "description": "Extension that opens JIRA issue in new tab",
+  "author": "Irina Ivanova",
+  "license": "MPL 2.0",
+  "version": "1.2",
+  "homepage": "http://ivanova-irina.blogspot.com/p/jira-issue-opener.html",
+  "icon": "data/icon-64.png",
+  "icon64": "data/icon-64.png",
+  "preferences": [{
+    "name": "url",
+    "title": "URL of JIRA",
+    "description": "Extension will add /BROWSE/KEY to this URL",
+    "type": "string",
+    "value": "http://jira.atlassian.com"
+  }]
+}
