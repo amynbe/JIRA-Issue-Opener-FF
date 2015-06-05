@@ -6,21 +6,19 @@ body {
 	font-size: 14px;
 	color: white
 }
+
 input {
 	font-size: 14px;
 	color: #000000
 }
+
 #error {
 	font-size: 14px;
 	color: #CC0000;
     padding-bottom: 10px;
 	text-align: center
 }
-#info {
-	float: right;
-	color: white;
-	font-size: 10px
-}
+
 .description {
 	text-align: right;
 	font-size: 11px;
