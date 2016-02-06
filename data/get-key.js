@@ -38,7 +38,18 @@ function removeSkypeFormatting(string) {
 	return string;
 };
 
-self.port.on("show", function onShow() {
-
+self.port.on("show", function onShow(clipboard) {
+	var key = removeSpaces(clipboard);
+	key = removeSkypeFormatting(key);
+    keyField.value = key;
     keyField.focus();
+    keyField.setSelectionRange(0, keyField.value.length);
+});
+
+var goButton = document.getElementById("go-button");
+
+goButton.addEventListener("click", function go() {
+	var key = removeSpaces(keyField.value);
+	key = removeSkypeFormatting(key);
+	self.port.emit("key-entered", key);
 });
