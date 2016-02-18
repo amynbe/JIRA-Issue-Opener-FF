@@ -5,10 +5,10 @@
   "description": "Fork of JIRA Issue Opener with autopaste and go button",
   "author": "Amyn Bennamane",
   "license": "MPL 2.0",
-  "version": "1.2",
+  "version": "1.2.1-signed",
   "homepage": "https://github.com/amynbe/JIRA-Issue-Opener-FF",
-  "icon": "data/icon-64.png",
-  "icon64": "data/icon-64.png",
+  "icon": "resource://7D2138BC-D16D-11E5-8759-381BBB8E7F8B/data/icon-32.png",
+  "icon64": "resource://7D2138BC-D16D-11E5-8759-381BBB8E7F8B/data/icon-64.png",
   "main": "lib/main.js",
   "preferences": [
     {
