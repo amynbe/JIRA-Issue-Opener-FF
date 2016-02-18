@@ -10,11 +10,19 @@
   "icon": "data/icon-64.png",
   "icon64": "data/icon-64.png",
   "main": "lib/main.js",
-  "preferences": [{
-    "name": "url",
-    "title": "URL of JIRA",
-    "description": "Extension will add /BROWSE/KEY to this URL",
-    "type": "string",
-    "value": "http://jira.atlassian.com"
-  }]
+  "preferences": [
+    {
+      "name": "url",
+      "title": "URL of JIRA",
+      "description": "Extension will add /BROWSE/KEY to this URL",
+      "type": "string",
+      "value": "http://jira.atlassian.com"
+    },
+    {
+      "name": "autopaste",
+      "title": "Auto paste clipboard content",
+      "type": "bool",
+      "value": true
+    }
+  ]
 }
