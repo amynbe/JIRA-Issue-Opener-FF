@@ -4,8 +4,7 @@ keyField.addEventListener("keyup", function onkeyup(event) {
 
     if (event.keyCode == 13) {
 
-        var key = keyField.value;
-        key = removeSpaces(key);
+        var key = keyField.value.trim();
         key = removeSkypeFormatting(key);
 
         keyField.value = "";
